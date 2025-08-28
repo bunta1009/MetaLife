@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metalife</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <div id="loading-screen">
+      <div class="loading-text" id="loading-text">LOADING...</div>
+      <div class="progress-bar-frame">
+        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <div id="main-content" style="display: none">
+      <!-- header -->
+      <header id="header">
+        <div class="inner">
+          <!-- pc -->
+          <div class="header-pc">
+            <div class="header-pc__logo">
+              <a href="#top"><img src="./img/logo-img.png" alt="" /></a>
+            </div>
+            <nav class="header-pc__menu">
+              <ul>
+                <li class="menu-btn">
+                  <a href="#about" class="menu-btn__default">About MetaLife</a>
+                  <a href="#about" class="menu-btn__hover">MetaLifeについて</a>
+                </li>
+                <li class="menu-btn">
+                  <a href="#feature" class="menu-btn__default">Feature</a>
+                  <a href="#feature" class="menu-btn__hover">機能紹介</a>
+                </li>
+                <li class="menu-btn">
+                  <a href="usage.html" class="menu-btn__default">Usage Scene</a>
+                  <a href="usage.html" class="menu-btn__hover">活用シーン</a>
+                </li>
+              </ul>
+              <div class="join-btn">
+                <a href="https://metalife.co.jp/" class="join-btn__default"
+                  >Join Now</a
+                >
+                <a href="https://metalife.co.jp/" class="join-btn__hover"
+                  >参加する</a
+                >
+              </div>
+            </nav>
+          </div>
+
+          <!-- sp -->
+          <div class="header-sp">
+            <div class="header-sp__logo">
+              <a href="#top"><img src="./img/logo-img.png" alt="" /></a>
+            </div>
+            <div class="drawer-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="header-sp__menu">
+              <ul>
+                <li class="menu-btn header-menu-btn">
+                  <a href="#about">About MetaLife</a>
+                </li>
+                <li class="menu-btn header-menu-btn">
+                  <a href="#feature">Feature</a>
+                </li>
+                <li class="menu-btn header-menu-btn">
+                  <a href="usage.html">Usage Scene</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div id="horizontal-scroll" class="scroll-container">
+        <!-- mainvisual -->
+        <section id="mainvisual">
+          <div class="content">
+            <div class="inner">
+              <div class="container">
+                <div class="left">
+                  <div class="video">
+                    <video class="bg-video" autoplay muted playsinline loop>
+                      <source src="./img/MetaLife.mov" type="video/mp4" />
+                      お使いのブラウザでは動画を再生できません。
+                    </video>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="text">
+                    <h2 class="fade-in delay-1">いつもの場所を、</h2>
+                    <h2 class="fade-in delay-2">いつもの気軽さで。</h2>
+                  </div>
+                </div>
+                <div class="guide">
+                  <span>Scroll</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+          <div class="content">
+            <div class="inner">
+              <div class="container">
+                <div class="left">
+                  <div class="title">
+                    <h2 class="main-title">About MetaLife</h2>
+                    <p class="sub-title">MetaLifeについて</p>
+                  </div>
+                  <div class="description">
+                    <h3 class="description-title fade-in delay-1">
+                      「在籍」から「実感」へ。<br>つながるコミュニティ。
+                    </h3>
+                    <p class="description-text fade-in delay-2">
+                      MetaLifeは、まるでリアルのように<br />気軽に集えるバーチャルスペースを提供する<br />コミュニケーションプラットフォームです。
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="image fade-in delay-1">
+                    <img src="./img/About-img.png" alt="About Image" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Value -->
+        <section class="value">
+          <div class="content">
+            <div class="inner">
+              <div class="container">
+                <div class="left">
+                  <div class="title">
+                    <h3 class="main-title">Value</h3>
+                    <p class="sub-title">価値</p>
+                  </div>
+                  <div class="description">
+                    <h4 class="description-title fade-in delay-1">
+                      “<span>つながり</span>”を自然に生み出すオンライン空間<br />「誰かと話したくなる」場所。
+                    </h4>
+                    <p class="description-text fade-in delay-2">
+                      近づくだけで会話が始まる仕組みにより、<br />物理的な距離を超えて気配や偶然の会話が生まれます。<br />イベントやセミナーでも、<br />オフラインに近い感覚のコミュニケーションを実現します。
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="image">
+                    <div class="image-pc fade-in delay-1">
+                      <img src="./img/value-img_pc.png" alt="" />
+                    </div>
+                    <div class="image-sp fade-in delay-1">
+                      <img src="./img/value-img_sp.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- feature -->
+        <section id="feature">
+          <div class="content">
+            <div class="inner">
+              <div class="container">
+                <div class="left">
+                  <div class="title">
+                    <h2 class="main-title">Feature</h2>
+                    <p class="sub-title">機能紹介</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="feature-cards">
+                    <div class="feature-card fade-in delay-1">
+                      <h3 class="card-title">近づくだけで会話可能</h3>
+                      <p class="card-description">
+                        リアルな空間のように近づくだけで<br />音声・ビデオ通話がスタート！<br />使い方を覚えなくても<br />直感的にコミュニケーションが取れます。
+                      </p>
+                      <img
+                        class="card-image"
+                        src="./img/feature-img_1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="feature-card fade-in delay-1">
+                      <h3 class="card-title">URLで簡単参加</h3>
+                      <p class="card-description">
+                        面倒な設定やアプリのインストールは不要。<br />1つのURLをクリックするだけで<br />どこからでも参加OK！<br />誰とでもすぐに「会える」場所がつくれます。
+                      </p>
+                      <img
+                        class="card-image"
+                        src="./img/feature-img_2.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="feature-card fade-in delay-1">
+                      <h3 class="card-title">ツール連携</h3>
+                      <p class="card-description">
+                        Slack・Teams・Googleカレンダーなど、<br />普段使っているツールと繋げてもっと便利に。<br />通知や予定の管理もスムーズになります。
+                      </p>
+                      <img
+                        class="card-image"
+                        src="./img/feature-img_3.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="feature-card fade-in delay-1">
+                      <h3 class="card-title">チャット機能</h3>
+                      <p class="card-description">
+                        資料を送ったり、あとで見返したり。<br />必要な機能がそろったチャットで、<br />コミュニケーションをサポート！
+                      </p>
+                      <img
+                        class="card-image"
+                        src="./img/feature-img_4.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- usage-->
+        <section id="usage">
+          <div class="content">
+            <div class="inner">
+              <div class="container">
+                <div class="left">
+                  <div class="title">
+                    <h2 class="main-title">Usage Scene</h2>
+                    <p class="sub-title">活用シーン</p>
+                  </div>
+                </div>
+
+                <div class="top-loop-wrap">
+                  <div class="top-loop-area">
+                    <div class="top-scrollText">
+                      <span
+                        >USAGE SCENE&nbsp;&nbsp;USAGE SCENE&nbsp;&nbsp;</span
+                      >
+                      <span
+                        >USAGE SCENE&nbsp;&nbsp;USAGE SCENE&nbsp;&nbsp;</span
+                      >
+                      <span
+                        >USAGE SCENE&nbsp;&nbsp;USAGE SCENE&nbsp;&nbsp;</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="right">
+                  <!-- Slider main container -->
+                  <div class="swiper fade-in delay-1">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <h3 class="slide-title">知識を深めたい人向け</h3>
+                        <div class="slide-box">
+                          <img
+                            class="slide-box-image"
+                            src="./img/usage-img_1.png"
+                            alt=""
+                          />
+                          <div class="slide-box-title">レベル別の質問部屋</div>
+                          <p class="slide-description">
+                            学習の進捗や理解度に応じて、レベル別の質問ルームを用意。自分のペースに合った環境で、似た課題を持つ仲間や講師に質問できるので、「今さら聞けない…」という不安もなく、効率よく疑問を解消できます。
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <h3 class="slide-title">静かに集中したい人向け</h3>
+                        <div class="slide-box">
+                          <img
+                            class="slide-box-image"
+                            src="./img/usage-img_2.png"
+                            alt=""
+                          />
+                          <div class="slide-box-title">モクモクルーム</div>
+                          <p class="slide-description">
+                            周りに気を取られず、自分だけの時間に集中したいときにぴったりの「モクモクルーム」。孤独にならずに“静かな集中”を叶える理想の学習スペースです。
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <h3 class="slide-title">新しい視点に触れたい人向け</h3>
+                        <div class="slide-box">
+                          <img
+                            class="slide-box-image"
+                            src="./img/usage-img_3.png"
+                            alt=""
+                          />
+                          <div class="slide-box-title">セミナーフロア</div>
+                          <p class="slide-description">
+                            毎週開催されるセミナー。講師の学びやアウトプットをリアルタイムで聞けるセミナーフロア。
+                            プログラミング以外にも、キャリア、最新技術など多岐にわたるテーマが扱われ、視野を広げる貴重な機会となります。
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <h3 class="slide-title">
+                          交流・つながりがほしい人向け
+                        </h3>
+                        <div class="slide-box">
+                          <img
+                            class="slide-box-image"
+                            src="./img/usage-img_4.png"
+                            alt=""
+                          />
+                          <div class="slide-box-title">オンライン飲み会</div>
+                          <p class="slide-description">
+                            オンライン飲み会ルームでは、日々の学習の振り返りやお悩み共有、カジュアルなゲームイベントなどを通じて、講師や他の生徒との距離がぐっと縮まります。
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <h3 class="slide-title">
+                          案件獲得をしていきたい人向け
+                        </h3>
+                        <div class="slide-box">
+                          <img
+                            class="slide-box-image"
+                            src="./img/usage-img_5.png"
+                            alt=""
+                          />
+                          <div class="slide-box-title">案件取得部屋</div>
+                          <p class="slide-description">
+                            実践経験を積みたい、フリーランスを目指したい、ポートフォリオを強化したい。
+                            そんな受講生のために設けられた「案件取得部屋」では、講師からのフィードバックやサポートを受けながら、実際の案件にチャレンジする機会を得ることができます。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                  <div class="usage-btn">
+                    <a href="./usage.html" class="view-btn">View All</a>
+                    <a href="./usage.html" class="view-btn"
+                      ><img src="./img/Arrow right-circle.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="end-loop-wrap">
+                  <div class="end-loop-area">
+                    <div class="end-scrollText">
+                      <span
+                        >USAGE SCENE&nbsp;&nbsp;USAGE SCENE&nbsp;&nbsp;</span
+                      >
+                      <span
+                        >USAGE SCENE&nbsp;&nbsp;USAGE SCENE&nbsp;&nbsp;</span
+                      >
+                      <span
+                        >USAGE SCENE&nbsp;&nbsp;USAGE SCENE&nbsp;&nbsp;</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer">
+          <div class="content">
+            <div class="inner">
+              <h2 class="footer-title">Join now</h2>
+              <p class="footer-subtitle">ーメタリーフを体験するー</p>
+              <a href="https://metalife.co.jp/" class="footer-btn"
+                >今すぐ始める</a
+              >
+              <ul>
+                <li class="menu-btn">
+                  <a href="#about" class="menu-btn__default">About MetaLife</a>
+                  <a href="#about" class="menu-btn__hover">MetaLifeについて</a>
+                </li>
+                <li class="menu-btn">
+                  <a href="#feature" class="menu-btn__default">Feature</a>
+                  <a href="#feature" class="menu-btn__hover">機能紹介</a>
+                </li>
+                <li class="menu-btn">
+                  <a href="usage.html" class="menu-btn__default">Usage Scene</a>
+                  <a href="usage.html" class="menu-btn__hover">活用シーン</a>
+                </li>
+              </ul>
+              <div class="guide">
+                <a href="#mainvisual">
+                  <span>Back to top</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="run">
+          <div class="run__car">
+            <img src="./img/drive_1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="bar"></div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const scrollContainer = document.getElementById("horizontal-scroll");
+        const car = document.querySelector(".run__car img");
+
+        if (!scrollContainer || !car) return;
+
+        let lastScrollLeft = scrollContainer.scrollLeft;
+        let isReversed = false;
+
+        scrollContainer.addEventListener("scroll", () => {
+          const maxScroll =
+            scrollContainer.scrollWidth - scrollContainer.clientWidth;
+          const currentScroll = scrollContainer.scrollLeft;
+
+          // スクロール量に応じてX座標を計算
+          const progress = currentScroll / maxScroll;
+          const maxMove = scrollContainer.clientWidth - 100; // 車の最大移動範囲
+          const translateX = progress * maxMove;
+          car.style.transform = `translateX(${translateX}px)`;
+
+          // 方向判定して画像切り替え
+          if (currentScroll > lastScrollLeft && isReversed) {
+            // 右スクロールに戻った → 通常画像に
+            car.src = "./img/drive_1.png";
+            isReversed = false;
+          } else if (currentScroll < lastScrollLeft && !isReversed) {
+            // 左スクロールになった → 逆向き画像に
+            car.src = "./img/drive_1_reverse.png";
+            isReversed = true;
+          }
+
+          lastScrollLeft = currentScroll;
+        });
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
